@@ -1,0 +1,136 @@
+/* Naomi's CSS File */
+
+/*--Fonts-------------------------------------------------*/
+	/* Amble font -- Lisence:  http://www.apache.org/licenses/ */
+	@font-face {font-family: 'amble';
+			src:url(amble.ttf);
+			font-weight: normal;
+			font-weight: normal; }
+			
+	body  { font-family: 'amble', verdana, arial, sans-serif;
+		color: #0a2429;
+		font-size: 12px;
+		line-height: 1.5;
+		margin: 0;
+		padding: 0;
+		background: #9CD6E4; /*AliceBlue*/ }
+		
+		
+/*--Headings + Page Format--------------------------------*/
+	h1, h2, h3 {font-family: georgia, garamond, serif;
+				font-weight: bold; }
+				
+	h1 {font-size: 160%; }
+	h2 {font-size: 130%; }
+	h3 {font-size: 120%; }
+	
+	p, h1, h2, ol, ul {margin-top: 0px;
+					   margin-bottom: 5px; }
+
+	ol {padding-left: 0;
+		margin-left: 30px; }
+		
+/* Drop Caps */
+	span {float: left;
+		  width: 0.76em;
+		  font-size: 560%;
+		  font-family: algerian, courier;
+		  line-height: 80%; }
+
+/* space after paragraph */
+	p { margin-bottom: 10px; 
+	  }
+
+/* Centre preformatted text */
+	pre { text-align: center; }
+
+
+/* Links and Images */
+	img {padding: 4px;
+		 border: 1px solid black;
+		 background-color: white; }
+		 
+	a {color: #2c89a0; 
+		font-weight: bold;
+		text-decoration: none;
+		border-bottom:1px solid;
+		padding-bottom: 1px; }
+		
+	/*Chapter text formating */
+
+	section#special p { text-indent: 0px ; }
+	body.chapter section p { text-indent: 25px; }
+		
+	/* a:visited {color: #4a2885} */
+	
+	a:hover, a:focus, a:active {background-color: #fff5e8;
+								color: #2c89a0;
+								border-bottom-color: #fdebcf; }
+
+
+/* --Wrapper-----------------------------------------------*/
+div#wrapper { width: 728px;
+			  margin-left: auto;
+			  margin-right: auto;
+			  margin-top: 10px;
+			  margin-bottom: 10px;
+			  background-color: #F0F8FF;
+			  
+			  /* Sending wrapper to the shadow realm
+			  background-image: url(images/wrap-bg.gif);
+			  background-repeat: repeat-y; 
+			  background-position: left top;
+			  background-attachment: scroll;
+			  */
+			  
+			  border: 2px dotted black; }
+
+
+/* --Float-------------------------------------------------*/
+article {float: left;
+		 width: 500px;
+		 padding-left: 10px; }
+
+nav {float: right;
+	 width: 200px;
+	 padding-right: 5px; }
+
+footer {clear: both;
+		padding: 10px;
+		font-size: 75%;
+		height: 1%;
+		color: #0a2429;
+		border-top: 2px dotted #464646; }
+		
+footer p {margin-bottom: 0px;
+		  text-indent: 0px ;}
+
+footer a:link {color:#2c89a0; }
+
+footer a:hover, footer a:focus, footer a:active { background-color: transparent;
+															border: none; }
+
+
+/* --Navigation--------------------------------------------*/
+nav ul { list-style-type: none;
+		 border: 1px solid #aabadd;
+		 margin-left: 0;
+		 padding-left: 0px;
+		 border-bottom: none;
+		 display: block;
+		 line-height: 2;
+		 height: 1%; }
+		
+nav a { display: block;
+		background: #ebecf6;
+		padding-left: 1px;
+		line-height: 2;
+		border-bottom-color: #aabadd;
+		height: 1%; }
+
+nav a:hover { background-color: white; }
+nav li { display: inline; }
+
+
+/* --Chapter Formatting------------------------------------*/
+
